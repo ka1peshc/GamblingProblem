@@ -28,9 +28,8 @@ namespace GamblingProblem
                 {
                     wallet++;
                 }
-                if(wallet > STOPWINSTAKE || wallet < STOPLOOSESTAKE)
-                {
-                    
+                if(wallet >= STOPWINSTAKE || wallet <= STOPLOOSESTAKE)
+                {                    
                     break;
                 }
                 BetCount++;
